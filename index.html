@@ -422,7 +422,7 @@
     }
 
     function exportToSheetsPrompt() {
-      const defaultUrl = ''; // あらかじめデプロイした Web App の URL を入れておくこともできます
+      const defaultUrl = 'https://script.google.com/macros/s/AKfycbxR7i8tnkJ7GWJGdd_LByjCEGBDZwtrUkrxQTDH2jF6k9Wcg2ucSBmk952UTkGKkpMR/exec'; // あらかじめデプロイした Web App の URL を入れておくこともできます
       const url = prompt('Apps Script Web App URLを入力してください:', defaultUrl);
       if (url) exportToAppsScript(url);
     }
